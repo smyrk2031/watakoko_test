@@ -1,0 +1,257 @@
+{
+    "buildings": [
+        {
+            "id": "building_a",
+            "name_ja": "A棟",
+            "name_en": "Building A",
+            "polygon": [
+                { "lat": 35.170915, "lng": 136.881537 },
+                { "lat": 35.171015, "lng": 136.881837 },
+                { "lat": 35.170815, "lng": 136.881937 },
+                { "lat": 35.170715, "lng": 136.881637 }
+            ],
+            "description": "メインオフィス棟",
+            "floors": [
+                {
+                    "label": "1F",
+                    "rooms": [
+                        {
+                            "id": "room_101",
+                            "name_ja": "会議室101",
+                            "name_en": "Meeting Room 101",
+                            "usage": "会議室",
+                            "access": {
+                                "open": "09:00",
+                                "close": "18:00"
+                            },
+                            "imageUrl": "images/room101.png",
+                            "polygon": [
+                                { "lat": 35.170925, "lng": 136.881587 },
+                                { "lat": 35.170925, "lng": 136.881687 },
+                                { "lat": 35.170825, "lng": 136.881687 },
+                                { "lat": 35.170825, "lng": 136.881587 }
+                            ]
+                        },
+                        {
+                            "id": "room_102",
+                            "name_ja": "休憩室102",
+                            "name_en": "Lounge 102",
+                            "usage": "休憩室",
+                            "imageUrl": "images/room102.png",
+                            "polygon": [
+                                { "lat": 35.170825, "lng": 136.881587 },
+                                { "lat": 35.170825, "lng": 136.881687 },
+                                { "lat": 35.170725, "lng": 136.881687 },
+                                { "lat": 35.170725, "lng": 136.881587 }
+                            ]
+                        },
+                        {
+                            "id": "room_103",
+                            "name_ja": "作業室103",
+                            "name_en": "Work Room 103",
+                            "usage": "作業室",
+                            "imageUrl": "images/room103.png",
+                            "polygon": [
+                                { "lat": 35.170925, "lng": 136.881737 },
+                                { "lat": 35.170925, "lng": 136.881837 },
+                                { "lat": 35.170825, "lng": 136.881837 },
+                                { "lat": 35.170825, "lng": 136.881737 }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "label": "2F",
+                    "rooms": [
+                        {
+                            "id": "room_201",
+                            "name_ja": "大会議室201",
+                            "name_en": "Large Meeting Room 201",
+                            "usage": "大会議室",
+                            "access": {
+                                "open": "08:00",
+                                "close": "20:00"
+                            },
+                            "imageUrl": "images/room201.png",
+                            "polygon": [
+                                { "lat": 35.170925, "lng": 136.881587 },
+                                { "lat": 35.170925, "lng": 136.881737 },
+                                { "lat": 35.170775, "lng": 136.881737 },
+                                { "lat": 35.170775, "lng": 136.881587 }
+                            ]
+                        },
+                        {
+                            "id": "room_202",
+                            "name_ja": "役員室202",
+                            "name_en": "Executive Room 202",
+                            "usage": "役員室",
+                            "access": {
+                                "open": "09:00",
+                                "close": "17:00"
+                            },
+                            "imageUrl": "images/room202.png",
+                            "polygon": [
+                                { "lat": 35.170925, "lng": 136.881737 },
+                                { "lat": 35.170925, "lng": 136.881837 },
+                                { "lat": 35.170825, "lng": 136.881837 },
+                                { "lat": 35.170825, "lng": 136.881737 }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "label": "3F",
+                    "rooms": [
+                        {
+                            "id": "room_301",
+                            "name_ja": "開発室301",
+                            "name_en": "Development Room 301",
+                            "usage": "開発室",
+                            "imageUrl": "images/room301.png",
+                            "polygon": [
+                                { "lat": 35.170925, "lng": 136.881587 },
+                                { "lat": 35.170925, "lng": 136.881787 },
+                                { "lat": 35.170775, "lng": 136.881787 },
+                                { "lat": 35.170775, "lng": 136.881587 }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "building_b",
+            "name_ja": "B棟",
+            "name_en": "Building B",
+            "polygon": [
+                { "lat": 35.170615, "lng": 136.881337 },
+                { "lat": 35.170715, "lng": 136.881637 },
+                { "lat": 35.170515, "lng": 136.881737 },
+                { "lat": 35.170415, "lng": 136.881437 }
+            ],
+            "description": "研究開発棟",
+            "floors": [
+                {
+                    "label": "B1",
+                    "rooms": [
+                        {
+                            "id": "room_b101",
+                            "name_ja": "サーバー室B101",
+                            "name_en": "Server Room B101",
+                            "usage": "サーバー室",
+                            "access": {
+                                "open": "00:00",
+                                "close": "23:59"
+                            },
+                            "imageUrl": "images/room_b101.png",
+                            "polygon": [
+                                { "lat": 35.170525, "lng": 136.881487 },
+                                { "lat": 35.170525, "lng": 136.881587 },
+                                { "lat": 35.170425, "lng": 136.881587 },
+                                { "lat": 35.170425, "lng": 136.881487 }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "label": "1F",
+                    "rooms": [
+                        {
+                            "id": "room_b201",
+                            "name_ja": "研究室B201",
+                            "name_en": "Research Lab B201",
+                            "usage": "研究室",
+                            "imageUrl": "images/room_b201.png",
+                            "polygon": [
+                                { "lat": 35.170625, "lng": 136.881487 },
+                                { "lat": 35.170625, "lng": 136.881587 },
+                                { "lat": 35.170525, "lng": 136.881587 },
+                                { "lat": 35.170525, "lng": 136.881487 }
+                            ]
+                        },
+                        {
+                            "id": "room_b202",
+                            "name_ja": "実験室B202",
+                            "name_en": "Laboratory B202",
+                            "usage": "実験室",
+                            "imageUrl": "images/room_b202.png",
+                            "polygon": [
+                                { "lat": 35.170525, "lng": 136.881487 },
+                                { "lat": 35.170525, "lng": 136.881587 },
+                                { "lat": 35.170425, "lng": 136.881587 },
+                                { "lat": 35.170425, "lng": 136.881487 }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "building_c",
+            "name_ja": "C棟",
+            "name_en": "Building C",
+            "polygon": [
+                { "lat": 35.171215, "lng": 136.881237 },
+                { "lat": 35.171315, "lng": 136.881537 },
+                { "lat": 35.171115, "lng": 136.881637 },
+                { "lat": 35.171015, "lng": 136.881337 }
+            ],
+            "description": "管理・事務棟",
+            "floors": [
+                {
+                    "label": "1F",
+                    "rooms": [
+                        {
+                            "id": "room_c101",
+                            "name_ja": "受付C101",
+                            "name_en": "Reception C101",
+                            "usage": "受付",
+                            "access": {
+                                "open": "08:30",
+                                "close": "17:30"
+                            },
+                            "imageUrl": "images/room_c101.png",
+                            "polygon": [
+                                { "lat": 35.171125, "lng": 136.881387 },
+                                { "lat": 35.171125, "lng": 136.881487 },
+                                { "lat": 35.171025, "lng": 136.881487 },
+                                { "lat": 35.171025, "lng": 136.881387 }
+                            ]
+                        },
+                        {
+                            "id": "room_c102",
+                            "name_ja": "総務室C102",
+                            "name_en": "General Affairs C102",
+                            "usage": "総務室",
+                            "imageUrl": "images/room_c102.png",
+                            "polygon": [
+                                { "lat": 35.171225, "lng": 136.881387 },
+                                { "lat": 35.171225, "lng": 136.881487 },
+                                { "lat": 35.171125, "lng": 136.881487 },
+                                { "lat": 35.171125, "lng": 136.881387 }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "label": "2F",
+                    "rooms": [
+                        {
+                            "id": "room_c201",
+                            "name_ja": "経理室C201",
+                            "name_en": "Accounting C201",
+                            "usage": "経理室",
+                            "imageUrl": "images/room_c201.png",
+                            "polygon": [
+                                { "lat": 35.171125, "lng": 136.881387 },
+                                { "lat": 35.171125, "lng": 136.881487 },
+                                { "lat": 35.171025, "lng": 136.881487 },
+                                { "lat": 35.171025, "lng": 136.881387 }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+} 

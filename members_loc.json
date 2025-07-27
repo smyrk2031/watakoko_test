@@ -1,0 +1,268 @@
+{
+    "members": [
+        {
+            "id": "user_001",
+            "username": "田中太郎",
+            "iconUrl": "icons/tanaka.png",
+            "groups": ["営業部", "A棟ユーザー"],
+            "status": "在席",
+            "location": {
+                "timestamp": "2025-01-27T09:15:00Z",
+                "building_id": "building_a",
+                "floor_label": "1F",
+                "room_id": "room_101",
+                "coordinates": {
+                    "lat": 35.170875,
+                    "lng": 136.881637
+                },
+                "display_offset": {
+                    "x": 5,
+                    "y": -8
+                }
+            },
+            "note": "会議中"
+        },
+        {
+            "id": "user_002",
+            "username": "佐藤花子",
+            "iconUrl": "icons/sato.png",
+            "groups": ["開発部", "A棟ユーザー"],
+            "status": "在席",
+            "location": {
+                "timestamp": "2025-01-27T09:30:00Z",
+                "building_id": "building_a",
+                "floor_label": "1F",
+                "room_id": "room_101",
+                "coordinates": {
+                    "lat": 35.170875,
+                    "lng": 136.881637
+                },
+                "display_offset": {
+                    "x": -3,
+                    "y": 12
+                }
+            },
+            "note": "会議参加中"
+        },
+        {
+            "id": "user_003",
+            "username": "鈴木一郎",
+            "iconUrl": "icons/suzuki.png",
+            "groups": ["営業部", "B棟ユーザー"],
+            "status": "離席",
+            "location": {
+                "timestamp": "2025-01-27T08:45:00Z",
+                "building_id": "building_a",
+                "floor_label": "1F",
+                "room_id": "room_101",
+                "coordinates": {
+                    "lat": 35.170875,
+                    "lng": 136.881637
+                },
+                "display_offset": {
+                    "x": 8,
+                    "y": 5
+                }
+            },
+            "note": "トイレ休憩"
+        },
+        {
+            "id": "user_004",
+            "username": "山田次郎",
+            "iconUrl": "icons/yamada.png",
+            "groups": ["総務部", "A棟ユーザー"],
+            "status": "在席",
+            "location": {
+                "timestamp": "2025-01-27T09:00:00Z",
+                "building_id": "building_a",
+                "floor_label": "2F",
+                "room_id": "room_201",
+                "coordinates": {
+                    "lat": 35.170825,
+                    "lng": 136.881587
+                },
+                "display_offset": {
+                    "x": -2,
+                    "y": -5
+                }
+            },
+            "note": "資料作成中"
+        },
+        {
+            "id": "user_005",
+            "username": "高橋美咲",
+            "iconUrl": "icons/takahashi.png",
+            "groups": ["総務部", "A棟ユーザー"],
+            "status": "在席",
+            "location": {
+                "timestamp": "2025-01-27T09:20:00Z",
+                "building_id": "building_a",
+                "floor_label": "2F",
+                "room_id": "room_201",
+                "coordinates": {
+                    "lat": 35.170825,
+                    "lng": 136.881587
+                },
+                "display_offset": {
+                    "x": 6,
+                    "y": 3
+                }
+            },
+            "note": "電話対応中"
+        },
+        {
+            "id": "user_006",
+            "username": "中村健太",
+            "iconUrl": "icons/nakamura.png",
+            "groups": ["開発部", "B棟ユーザー"],
+            "status": "移動中",
+            "location": {
+                "timestamp": "2025-01-27T09:35:00Z",
+                "building_id": "building_b",
+                "floor_label": "1F",
+                "room_id": "room_101",
+                "coordinates": {
+                    "lat": 35.171015,
+                    "lng": 136.882037
+                },
+                "display_offset": {
+                    "x": -1,
+                    "y": 7
+                }
+            },
+            "note": "会議室へ移動中"
+        },
+        {
+            "id": "user_007",
+            "username": "小林雅子",
+            "iconUrl": "icons/kobayashi.png",
+            "groups": ["開発部", "B棟ユーザー"],
+            "status": "在席",
+            "location": {
+                "timestamp": "2025-01-27T09:10:00Z",
+                "building_id": "building_b",
+                "floor_label": "1F",
+                "room_id": "room_101",
+                "coordinates": {
+                    "lat": 35.171015,
+                    "lng": 136.882037
+                },
+                "display_offset": {
+                    "x": 4,
+                    "y": -6
+                }
+            },
+            "note": "コードレビュー中"
+        },
+        {
+            "id": "user_008",
+            "username": "伊藤直樹",
+            "iconUrl": "icons/ito.png",
+            "groups": ["開発部", "B棟ユーザー"],
+            "status": "在席",
+            "location": {
+                "timestamp": "2025-01-27T09:25:00Z",
+                "building_id": "building_b",
+                "floor_label": "1F",
+                "room_id": "room_101",
+                "coordinates": {
+                    "lat": 35.171015,
+                    "lng": 136.882037
+                },
+                "display_offset": {
+                    "x": -7,
+                    "y": 2
+                }
+            },
+            "note": "設計書作成中"
+        },
+        {
+            "id": "user_009",
+            "username": "渡辺優子",
+            "iconUrl": "icons/watanabe.png",
+            "groups": ["営業部", "C棟ユーザー"],
+            "status": "退室済",
+            "location": {
+                "timestamp": "2025-01-27T08:30:00Z",
+                "building_id": "building_c",
+                "floor_label": "2F",
+                "room_id": "room_201",
+                "coordinates": {
+                    "lat": 35.170715,
+                    "lng": 136.881437
+                },
+                "display_offset": {
+                    "x": 3,
+                    "y": -4
+                }
+            },
+            "note": "外出中"
+        },
+        {
+            "id": "user_010",
+            "username": "加藤正人",
+            "iconUrl": "icons/kato.png",
+            "groups": ["営業部", "C棟ユーザー"],
+            "status": "在席",
+            "location": {
+                "timestamp": "2025-01-27T09:40:00Z",
+                "building_id": "building_c",
+                "floor_label": "2F",
+                "room_id": "room_201",
+                "coordinates": {
+                    "lat": 35.170715,
+                    "lng": 136.881437
+                },
+                "display_offset": {
+                    "x": -5,
+                    "y": 8
+                }
+            },
+            "note": "提案書作成中"
+        },
+        {
+            "id": "user_011",
+            "username": "松本和子",
+            "iconUrl": "icons/matsumoto.png",
+            "groups": ["営業部", "C棟ユーザー"],
+            "status": "在席",
+            "location": {
+                "timestamp": "2025-01-27T09:05:00Z",
+                "building_id": "building_c",
+                "floor_label": "2F",
+                "room_id": "room_201",
+                "coordinates": {
+                    "lat": 35.170715,
+                    "lng": 136.881437
+                },
+                "display_offset": {
+                    "x": 2,
+                    "y": 6
+                }
+            },
+            "note": "顧客対応中"
+        },
+        {
+            "id": "user_012",
+            "username": "森田敦",
+            "iconUrl": "icons/morita.png",
+            "groups": ["総務部", "A棟ユーザー"],
+            "status": "在席",
+            "location": {
+                "timestamp": "2025-01-27T09:15:00Z",
+                "building_id": "building_a",
+                "floor_label": "1F",
+                "room_id": "room_101",
+                "coordinates": {
+                    "lat": 35.170875,
+                    "lng": 136.881637
+                },
+                "display_offset": {
+                    "x": -6,
+                    "y": -3
+                }
+            },
+            "note": "会議参加中"
+        }
+    ]
+} 
